@@ -1,0 +1,276 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+/* Part-A */
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 70px;
+    border-bottom: 1px solid #e4e2e2;
+}
+.main .search{
+    color: rgb(140, 139, 139);
+} 
+.main .search input:focus{
+    outline: none;
+}
+.main .search input{
+    border: none;
+    padding: 7px 1px 7px 50px;
+    position: relative;
+    font-size: 20px;
+    transform: translate(left);
+}
+.main .search i{
+    position: absolute;
+    z-index: 1;
+    top: 55px;
+    left: 75px;
+    font-size: 25px;
+}
+.main .name{
+    border: 3px solid black;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    padding: 10px 15px;
+    margin-right: 60px;
+}
+.main .icon-a{
+    font-size: 20px;
+    color: rgb(140, 139, 139);
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.main .icon-a .fa-heart{ 
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.main .icon-a span{
+    color: white;
+    font-size: 1px;
+    border: 1px solid;
+    border-radius: 50px 50px;
+    padding: 4px 6px;
+    background-color: #ba2be2;
+    position: absolute;
+    top: 41px;
+    right: 86px;
+}
+/* End Part-A */
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 350px;
+}    
+.navbar a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    font-size: 15px;
+}
+/* End Navbar */
+.gray{
+    background-color: #eeeeee;
+    padding: 20px 80px;
+    font-size: 15px;
+}
+.gray span{
+    font-weight: lighter;
+    font-size: 14px;
+}
+/* Part-B */
+.center{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 150px 100px ;
+}
+.center h1{
+    font-size: 35px;
+    font-weight: lighter;
+    line-height: 65px;
+}
+.center p{
+    color: rgb(140, 139, 139);
+    line-height: 30px;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.center span{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #ba2be2;
+}
+.center .radi{
+    font-size: 15px;
+    margin-right: 20px;
+}
+.center .radio{
+    font-size: 15px;
+    margin-right: 20px;
+}
+.center .min{
+    position: absolute;
+    border:1px solid #ba2be2;
+    border-radius: 2px 0px 0px 2px;
+    background-color: white;
+    padding: 8px 10px;
+}
+.center .equal{
+    position: absolute;
+    top: 719px;
+    right: 610px;
+    border:1px solid #ba2be2;
+    border-radius: 0px 2px 2px 0px;
+    background-color: white;
+    padding: 8px 9px;
+}
+.center .form{
+    font-size: 0px;
+    margin-left: 25px;
+}
+.center .border span{
+    font-size: 15px;
+    font-weight: lighter;
+    color: #000;
+    position: absolute;
+    top: 8px ;
+    left: 15px;
+}
+.center .cart{
+    background-color: #ba2be2;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    margin-top: 80px;
+}
+/* End Part-B */
+/* Part-C */
+.productes{
+    background-color: #eeeeee;
+    height: 100vh;
+    text-align: center;
+}
+.productes .border{
+    border-top: 3px solid #ba2be2;
+    width: 40px;
+    margin-left: 49%;
+    margin-top: 70px;
+}
+.productes h4{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.productes .cloth{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 100px;
+    line-height: 30px;
+}
+.productes .tank{
+    background-color: white;
+    height: 65vh;
+}
+.productes .Shose{
+    background-color: white;
+}
+.productes .shirt{
+    background-color: white;
+}
+.productes h6{
+    color: #ba2be2;
+    font-size: 23px;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+.productes p{
+    font-size: 15px;
+    color: rgb(143, 141, 141);
+    font-weight: lighter;
+}
+.productes span{
+    color: #ba2be2;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* End Part-C */
+/* footer */
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0px;
+    line-height: 40px;
+}
+.foot p{
+    color: rgb(143, 141, 141);
+    font-weight: lighter;
+    font-size: 13px;
+}
+.foot .adrees{
+    color: rgb(87, 87, 87);
+    font-weight: lighter;
+    font-size: 13.5px;
+}
+.foot .email{
+    color: rgb(87, 87, 87);
+    font-weight: lighter;
+    font-size: 13.5px;
+}
+.foot h6{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(68, 68, 68);
+}
+.foot .namber{
+    color: rgb(143, 141, 141);
+    font-weight: lighter;
+    font-size: 13px;
+}
+.end{
+    text-align: center;
+    color: rgb(143, 141, 141);
+    font-weight: lighter;
+    font-size: 13px;
+    margin: 100px 0px;
+}
+.foot a{
+    text-decoration: none;
+    color: #ba2be2;
+}
+.foot .column{
+    display: flex;
+    flex-direction: column;
+}
+.foot button{
+    background-color: #ba2be2;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    position: absolute;
+    top: 1953px;
+    right: 87px;
+}
+.foot input{
+    padding: 7px 70px 13px 10px;
+}
+.foot .Info i{
+    color: #ba2be2;
+}
+.foot .Info .fa-phone{
+    margin-right: 7px;
+}
+.foot .Info .fa-envelope{
+    font-size: 20px;
+    margin-right: 7px;
+}
+.end a{
+    text-decoration: none;
+}
+/* End footer */

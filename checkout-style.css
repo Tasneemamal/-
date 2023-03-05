@@ -1,0 +1,336 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow-x: hidden;
+}
+/* Part-A */
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 70px;
+    border-bottom: 1px solid #e4e2e2;
+}
+.main .search{
+    color: rgb(140, 139, 139);
+} 
+.main .search input:focus{
+    outline: none;
+}
+.main .search input{
+    border: none;
+    padding: 7px 1px 7px 50px;
+    position: relative;
+    font-size: 20px;
+    transform: translate(left);
+}
+.main .search i{
+    position: absolute;
+    z-index: 1;
+    top: 55px;
+    left: 75px;
+    font-size: 25px;
+}
+.main .name{
+    border: 3px solid black;
+    font-size: 25px;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    padding: 10px 15px;
+    margin-right: 60px;
+}
+.main .icon-a{
+    font-size: 20px;
+    color: rgb(140, 139, 139);
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.main .icon-a .fa-heart{ 
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.main .icon-a span{
+    color: white;
+    font-size: 1px;
+    border: 1px solid;
+    border-radius: 50px 50px;
+    padding: 4px 6px;
+    background-color: #ba2be2;
+    position: absolute;
+    top: 41px;
+    right: 86px;
+}
+/* End Part-A */
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 350px;
+}    
+.navbar a{
+    text-decoration: none;
+    color: rgb(99, 99, 99);
+    font-size: 15px;
+}
+/* End Navbar */
+.gray{
+    background-color: #eeeeee;
+    padding: 20px 80px;
+    font-size: 15px;
+}
+.gray span{
+    font-weight: lighter;
+    font-size: 14px;
+}
+/* Border */
+.border{
+    border: 1px solid #e4e2e2;
+    padding: 20px;
+    margin: 50px 70px;
+    font-size: 13px;
+    color: rgb(99, 99, 99);
+}
+.border a{
+    color: #ba2be2;
+    text-decoration: none;
+}
+/* End Border */
+/* Check */
+.check{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e4e2e2;
+    padding-bottom: 80px;
+}
+.check .left h1{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-left: 80px;
+}
+.check .left .Border{
+    border: 1px solid #e4e2e2;
+    border-radius: 3px;
+    margin-left: 80px;
+    padding: 30px 30px;
+}
+.check .left .Border span{
+    color: rgb(200, 30, 30);
+}
+.check .left .Border .num-1{
+    padding: 5px 450px 5px 10px;
+    border-radius: 3px;
+    color: #636363;
+}
+.check .left .Border .name{
+    display: flex;
+    justify-content: space-between;
+}
+.check .left .Border .name .na{
+    padding: 5px 100px 5px 10px;
+}
+.check .left .Border .comp{
+    padding: 5px 355px 5px 10px;
+    border-radius: 3px;
+}
+.check .left .Border .comp :focus{
+    
+}
+.check .left .Border .st{
+    padding: 5px 355px 5px 10px;
+    border-radius: 3px;
+}
+.check .left .Border .country{
+    display: flex;
+    justify-content: space-between;
+}
+.check .left .Border .country .coun{
+    padding: 5px 100px 5px 10px;
+}
+.check .left .Border .adress{
+    display: flex;
+    justify-content: space-between;
+}
+.check .left .Border .adress .ad{
+    padding: 5px 100px 5px 10px;
+}
+.check .left h6{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.check .left textarea{
+    padding: 10px 10px;
+}
+.check .right h1{
+    font-size: 25px;
+    font-weight: lighter;
+    margin-right: 80px;
+}
+.check .right .frist{
+    border: 1px solid #e4e2e2;
+    border-radius: 3px;
+    margin-right: 80px;
+    padding: 30px 30px;
+}
+.check .right .frist h3{
+    font-size: 18px;
+    font-weight: lighter;
+}
+.check .right .frist .inp{
+    padding: 5px 450px 5px 10px;
+    border-radius: 3px;
+    color: #636363;
+}
+.check .right .frist .but{
+    position: absolute;
+    top: 556px;
+    right: 112px;
+    background-color: #ba2be2;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 8.5px 15px;
+    font-size: 10px;
+}
+.check .right .second{
+    border: 1px solid #e4e2e2;
+    border-radius: 3px;
+    margin-right: 80px;
+    padding: 30px 30px;
+}
+.check .right .second .one{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e4e2e2;
+    font-size: 23px;
+    font-weight: lighter;
+    line-height: 50px;
+}
+.check .right .second .one .s{
+    font-size: 15px;
+    color: #636363;
+}
+.check .right .second .two{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e4e2e2;
+    font-size: 23px;
+    font-weight: lighter;
+    line-height: 50px;
+    color: #636363;
+}
+.check .right .second .three{
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    font-weight: lighter;
+    line-height: 50px;
+}
+.check .right .bank{
+    text-decoration: none;
+    border: 1px solid #e4e2e2;
+    border-radius: 3px;
+    color: #ba2be2;
+    font-size: 13px;
+    padding: 10px 497px 10px 10px;
+}
+.check .right .cheq{
+    text-decoration: none;
+    border: 1px solid #e4e2e2;
+    border-radius: 3px;
+    color: #ba2be2;
+    font-size: 13px;
+    padding: 10px 515px 10px 10px;
+}
+.check .right .pay{
+    text-decoration: none;
+    border: 1px solid #e4e2e2;
+    border-radius: 3px;
+    color: #ba2be2;
+    font-size: 13px;
+    padding: 10px 575px 10px 10px;
+}
+.check .right .order{
+    text-decoration: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #ba2be2;
+    font-size: 13px;
+    padding: 10px 267px;
+}
+/* End Check */
+/* footer */
+.foot{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px 0px;
+    line-height: 40px;
+}
+.foot p{
+    color: rgb(143, 141, 141);
+    font-weight: lighter;
+    font-size: 13px;
+}
+.foot .adrees{
+    color: rgb(87, 87, 87);
+    font-weight: lighter;
+    font-size: 13.5px;
+}
+.foot .email{
+    color: rgb(87, 87, 87);
+    font-weight: lighter;
+    font-size: 13.5px;
+}
+.foot h6{
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(68, 68, 68);
+}
+.foot .namber{
+    color: rgb(143, 141, 141);
+    font-weight: lighter;
+    font-size: 13px;
+}
+.end{
+    text-align: center;
+    color: rgb(143, 141, 141);
+    font-weight: lighter;
+    font-size: 13px;
+    margin: 100px 0px;
+}
+.foot a{
+    text-decoration: none;
+    color: #ba2be2;
+}
+.foot .column{
+    display: flex;
+    flex-direction: column;
+}
+.foot button{
+    background-color: #ba2be2;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    position: absolute;
+    top: 1765px;
+    right: 87px;
+}
+.foot input{
+    padding: 7px 70px 13px 10px;
+}
+.foot .Info i{
+    color: #ba2be2;
+}
+.foot .Info .fa-phone{
+    margin-right: 7px;
+}
+.foot .Info .fa-envelope{
+    font-size: 20px;
+    margin-right: 7px;
+}
+.end a{
+    text-decoration: none;
+}
+/* End footer */
